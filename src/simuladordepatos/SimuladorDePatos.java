@@ -1,8 +1,7 @@
-/*
- * To change this template, choose Tools | Templates
- * and open the template in the editor.
- */
 package simuladordepatos;
+
+import patos.Pato;
+import patos.PatoCabecaVermelha;
 
 /**
  *
@@ -17,7 +16,7 @@ public class SimuladorDePatos {
         
         Pato donald;
         
-        donald = new PatoBranco();
+        donald = new PatoCabecaVermelha();
         
         donald.disparaVoo();
         
